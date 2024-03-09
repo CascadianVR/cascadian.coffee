@@ -7,58 +7,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="layout.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="images/CoffeeTime.png">
-    <meta name="keywords" content="Cas, Cascadian, CascadianWorks, 3D, modeling, blender, untiy, vrchat, youtube, server, store, booth">
-    <meta name="description" content="Information about myself, what I do, and links to various sites and projects.">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta property="og:title" content="Cascadian.coffrr">
+    <meta property="og:image" content="images/CoffeeTime.png">
+    <meta property="og:description" content="My personal website. There are links to all the major sites I use and examples of what I work on.">
+    <meta property="og:url" content="https://cascadian.coffee/">
+    <meta name="twitter:card" content="summary_large_image">
+    <script src="jquery-3.5.1.js"></script>  
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div style="margin: 0 auto; margin-top: 2% ; max-width: 700px;">
+
+    <div class="top-menu">
+        <ul>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#code">CODE</a></li>
+          <li><a href="#3dart">3D ART</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+
+    <div style="margin: 0 auto; max-width: 1000px; ">
         <div>
-            <a href="https://twitter.com/CascadianWorks">
-                <img class="image" style="display: flex;" src="https://pbs.twimg.com/profile_images/1553989988445917184/FljESYia.jpg">
-            </a>
-            <h1 id="titletop">Cascadian</h1>
-            <p>Hello, nice to meet you! My name is Mason, but online I mainly just go by my username "Cascadian". Officially, I'm an engineer with a Batchelor's in both Electrical and Computer Engineering. When I'm not working however, I love to do a lot
-                more!
+            <!-- <a href="https://twitter.com/CascadianVR">
+                <img class="image " style="display: flex;" src="images/Reze-Page2.png ">
+            </a> -->
+            <h1 class="titletop ">Cascadian</h1>
+            <div class="row">
+                <div class="column ">
+                    <a href="https://github.com/CascadianVR">
+                        <img class="icon " src="images/github.png ">
+                    </a>
+                </div>
+                <div class="column ">
+                    <a href="https://twitter.com/CascadianVR">
+                        <img class="icon " src="images/twitter.png ">
+                    </a>
+                </div>
+                <div class="column ">
+                    <a href="https://www.youtube.com/c/cascadian">
+                        <img class="icon " src="images/youtube.png ">
+                    </a>
+                </div>
+                <div class="column ">
+                    <a href="https://discord.gg/q3g3fmR">
+                        <img class="icon " src="images/discord.png ">
+                    </a>
+                </div>
+                <div class="column ">
+                    <a href="https://cascadian.booth.pm ">
+                        <img class="icon " src="images/booth.png ">
+                    </a>
+                </div>
+                <div class="column ">
+                    <a href="https://cascadian.gumroad.com/ ">
+                        <img class="icon " src="images/gumroad.png ">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+        
+        <div class="box">
+            <h2><i>Who am I?</i></h2>
+            <p>
+                Hi there! My name is Mason, but I go by "Cascadian" or "Cascas" online.
             </p>
-            <p>I spend much of my free time learning many things such as 3D modeling, making tools, developing games, working on VR hardware/software, graphics engineering, and much more! It's my passion to keep learning new things and expanding my capabilities.</p>
+            <br>
+            <h2><i>What do I do?</i></h2>
+            <p>
+                I have many interets that I try to pursue. However, the main subjects I focus on is programming, hardware, and 3D art.
+                I have a Bachelor's degree in Electrical & Computer Engineering and a passion for hardware.
+                However, nowadays, I spend most of my time coding, primarily focusing on VR-related projects.
+                I also support myself mainly through making 3D characters to use for vr platforms as well as to use for my own projects.
+            </p>
+            <br>
+            <h2><i>What is this website's purpose?</i></h2>
+            <p>
+                This is my personal site where I'll share my work and other personal aspects of my life as I see fit.
+                It will be a hodgepodge of all the things I love to work on and spend my time with!
+            </p>
         </div>
-        <br>
-        <div class="row">
-            <div class="column">
-                <a href="https://github.com/CascadianWorks">
-                    <img class="icon" src="images/github.png">
-                </a>
-            </div>
-            <div class="column">
-                <a href="https://twitter.com/CascadianWorks">
-                    <img class="icon" src="images/twitter.png">
-                </a>
-            </div>
-            <div class="column">
-                <a href="https://www.youtube.com/c/cascadian">
-                    <img class="icon" src="images/youtube.png">
-                </a>
-            </div>
-            <div class="column">
-                <a href="https://discord.gg/q3g3fmR">
-                    <img class="icon" src="images/discord.png">
-                </a>
-            </div>
-            <div class="column">
-                <a href="https://cascadian.booth.pm">
-                    <img class="icon" src="images/booth.png">
-                </a>
+
+        <!-- <div style="display: flex; justify-content: center; margin-top: 8%; ">
+            <div>
+                <button onclick="location.href='https://t.co/R0kvd6snv4' " class="button ">Comissions</button>
+                <button onclick="location.href='/about.html' " class="button ">About Me</button>
             </div>
         </div>
+        <br><br><br>
+        <div id="image-gallery">
+            <img id="current-image" src="gallery/29.jpg" alt="Image 1">
+            <div id="image-thumbs"></div>
+        </div> -->
+
         <br><br><br><br><br><br>
-        <p style="text-align: center; align-self: flex-end; font-size: 1.2vmin;">
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+
+
+        <p style="text-align: center; align-self: flex-end; font-size: max(1.8vmin, 18px); bottom: 0%;">
             Site in progress...
         </p>
     </div>
 
-    <script>
-    </script>
+    <!-- <script src="script.js"></script> -->
+    
 
 </body>
 
